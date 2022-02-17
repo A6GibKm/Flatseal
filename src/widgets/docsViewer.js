@@ -18,6 +18,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+imports.gi.versions.WebKit2 = '4.0';
+
 const {Gio, GLib, GObject, Handy, WebKit2} = imports.gi;
 const {WebView} = imports.gi.WebKit2; // eslint-disable-line no-unused-vars
 
